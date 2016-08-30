@@ -1,0 +1,51 @@
+#cp-left-container{
+	width:	25%;
+	height: 100%;
+	float:	left;
+	overflow-y:auto;
+	min-width: 150px;
+
+}
+#cp-map-container{
+	width:	100%;
+	height: 100%;
+	float:	right;
+}
+body,html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#cp-left-container h2{
+	text-align:center;
+	margin-bottom: 20px;
+}
+li {
+	cursor: pointer;
+}
+#wrapper{
+	position:relative;
+	height: 100%;
+	float:right;
+	width: 75%;
+}
+#ruta-mod{
+	position:absolute;
+	height: 35%;
+	width: 60%;
+	left: 20%;
+	top: 20%;
+	border: 5px solid black;
+}
+.panel-heading{
+	padding: 20px 20px;
+	text-align: center;
+}
+.panel-body{
+	text-align: center;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}

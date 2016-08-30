@@ -1,0 +1,97 @@
+
+#modal {
+  position: absolute;
+  background: #fff;
+  color: #333;
+  height: 45%;
+  width: 60%;
+  top: 20%;
+  left: 25%;
+  box-shadow: -0.3em 0.3em 0.5em rgba(0,0,0,0.2);
+  opacity:0;
+}
+.close-ribbon{
+  position: absolute;
+  top: 0;
+  right: 1em;
+  z-index: 1;
+  color: #eee;
+  font-size: 2em;
+  cursor: pointer;
+  width: 1.5em;
+  line-height: 0.5em;
+  -webkit-transition: line-height 0.5s;
+  transition: line-height 0.5s;
+}
+.close-ribbon:after {
+  content: "";
+  font-size: 0.5em;
+  position: absolute;
+  height: 1.2em;
+  border: 1.5em solid #F44336;
+  z-index: -1;
+  top: -1em;
+  border-top-width: 1.5em;
+  border-bottom-color: transparent;
+  right: 0;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.close-ribbon:before {
+  content: "";
+  font-size: 0.5em;
+  position: absolute;
+  border-style: solid;
+  border-color: transparent transparent #B71C1C transparent;
+  top: -1em;
+  right: 3em;
+  border-width: 0 0 1em 0.7em;
+  z-index: -1;
+}
+.close-ribbon:hover:after{
+  border: 1.5em solid #EF5350;
+  border-bottom-color: transparent;
+  height: 1.6em;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.close-ribbon:hover{
+  line-height: 0.9em;
+  color: #333;
+  -webkit-transition: line-height 0.5s;
+  transition: line-height 0.5s;
+}
+.modal-content{
+  padding: 1%;
+  height: 100%;
+  text-align: center;
+}
+.description{
+  font-style: italic;
+  font-size: 0.9em;
+  color: #989898;
+}
+#modal li{
+	margin-left: 15px;
+}
+#modal .col-sm-12{
+	padding-left: 1px;
+	padding-right: 1px;
+	height: 100%;
+}
+#modal h3{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	height: 10%;
+}
+#modal .form-group{
+	margin-bottom: 1px;
+	height: 20%
+
+}
+#modal #message{
+	height: 100%;
+}
+.contact-form.bottom{
+	height: 100%
+}

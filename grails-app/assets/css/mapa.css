@@ -1,0 +1,32 @@
+#gmap {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  float:left;
+}
+
+#map-container {
+	height:100%;
+}
+
+body {
+	height : 100%;
+}
+
+#p-container{
+	width: 85%;
+	margin:auto;
+	height: 100%;
+	-webkit-box-shadow: 0px -1px 12px 0px rgba(181,181,181,0.59);
+	-moz-box-shadow: 0px -1px 12px 0px rgba(181,181,181,0.59);
+	box-shadow: 0px -1px 12px 0px rgba(181,181,181,0.59);
+}
+#right-panel{
+  	width:0px;
+  	overflow-y:auto;
+  	max-height:100%;
+  	border:0px;
+  	float:right;
+	opacity:0;
+}
+

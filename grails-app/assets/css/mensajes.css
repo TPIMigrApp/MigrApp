@@ -1,0 +1,120 @@
+#menContainer{
+	width: 80%;
+	margin: auto;
+	height: 100%;
+}
+#izqContainer{
+	float:left;
+	width:30%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+#derContainer{
+	float:right;
+	width:70%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+}
+#contactos{
+	height:92%;
+	overflow-y: auto;
+	border: solid 1px black;
+}
+#crearC{
+	height:8%;
+	text-align:center;
+	border: solid 1px black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#mensajes{
+	width:100%;
+	height:90%;
+}
+.mensaje-propio{
+	background-color:#f0f0f0;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right:10px;
+	text-align:left;
+}
+#opener{
+	cursor: pointer;
+}
+.mensaje-otro{
+	background-color:#c9c9c9;
+	text-align:right;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right:10px;
+}
+#input{
+	width:100%;
+	height:8%;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding: 10px;
+}
+#izqTit{
+	height:15%;
+	width:100%;
+	margin: 0px;
+}
+#izqTit h2{
+	margin: 0;
+	padding: 0;
+}
+#contenido{
+	width:88%;
+	height:90%;
+}
+#input form {
+    width: 100%;
+    padding: 1%;
+}
+#cm{
+	width:8%;
+	height:90%;
+	padding: 0;
+	
+}
+.media-body{
+	cursor: pointer;
+}
+.container{
+	margin-top:40px;
+	height:70%;
+}
+.row{
+	height:100%;
+}
+.col-md-7{
+	height:100%;
+}
+.col-md-3{
+	height:100%;
+}
+
+.contacto{
+	text-align: left;
+	margin: 5px;
+}
+.amigoSel{
+	font-weight: bold;
+	background-color: #f7fff2;
+	cursor: pointer;
+}
+.amigo{
+	cursor: pointer;
+}
+#amigos{
+	overflow-y:auto;
+}
