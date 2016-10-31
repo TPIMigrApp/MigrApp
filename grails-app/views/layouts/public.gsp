@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title><g:layoutTitle default="BikeApp - ¡Muevete por Bogotá!"/></title>
+    <title><g:layoutTitle default="MigrApp - ¡Be Happy!"/></title>
 
 
     <!-- Agregamos CSS. /assets/css/ -->
@@ -58,7 +58,7 @@ window.location.replace(link);
                     </button>
 
                     <a class="navbar-brand" href='<g:createLink uri="/"/>'>
-                         <g:img  dir="images" file="smlogotipo1.png" alt="BikeApp-Logo"/>
+                         <g:img  dir="images" file="smlogotipo1.png" style="height: 100% !important;"/>
                     </a>
 
                 </div>
@@ -67,11 +67,20 @@ window.location.replace(link);
                         <!-- vista intermedia de registro -->
 
                         <!--<li><a href="#modalLogin">Iniciar Sesión</a></li>-->
-                                <li><a data-toggle="modal" href="#modalLogin" >Iniciar Sesión</a></li>
+                                <li><a data-toggle="modal">Home</a></li>
+                                <li><a data-toggle="modal">|</a></li>
+                                <li><a data-toggle="modal">Servicios </a></li>
+                                <li><a data-toggle="modal">|</a></li>
+                                <li><a data-toggle="modal">Contacto</a></li>
+
                     </ul>
+
                 </div>
+            
             </div>
+
         </div>
+      
     </header>
 
 <g:render template="/modales/login" />
@@ -97,7 +106,7 @@ window.location.replace(link);
 -->
                 <div class="col-sm-12">
                     <div class="copyright-text text-center">
-                        <p><a href="${createLink(controller:'usuario',action:'bikeapp')}">&copy; BikeApp 2016</a></p>
+                        <p><a href="${createLink(controller:'usuario',action:'bikeapp')}">&copy; MigrApp - ¡Be Happy! 2016</a></p>
                     </div>
                 </div>
             </div>

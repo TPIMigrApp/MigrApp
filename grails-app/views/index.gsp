@@ -8,21 +8,20 @@
 
  <style type="text/css">
  #home-slider {
-  background: url('${resource(dir: "images/home", file: "slider-bg.png")}') 0 100% repeat-x;
+  background: url('${resource(dir: "images/home", file: "slider-bg.png")}') 20% 100%;
   position: relative;
 }
 </style>
 </head>
-
+  
 <body>
-
-
-  <g:javascript>
+ <g:javascript>
   var url_enviarSugerencia= "${createLink(controller:'Usuario',action:'contactUs')}"
 </g:javascript>
 
 
 <section id="home-slider">
+  <hr style="background-color: rgb(212,96,82);height: 10px;margin-top: 0px !important;width: 95%;"/>
         <div class="container">
             <div class="row">
                 <div class="main-slider animate-in">
@@ -33,7 +32,7 @@
                         <g:form role="form" class="form-horizontal" name="registro" controller="Usuario" action="registro">
                             <div class="form-group">                           
                                 
-                                  <label class="control-label col-sm-3" for="username"><h5>Usuario:</h5></label>  
+                                  <label class="control-label col-sm-3" for="username" style="margin-top: -20px;"><h3>Usuario:</h3></label>  
                                   <div class="col-sm-9"> 
                                       <input type="text" class="form-control input-sm" name="username" required placeholder="Ingrese un nombre de usuario"> 
                                   </div>   
@@ -42,7 +41,7 @@
 
 
                             <div class="form-group">
-                              <label class="control-label col-sm-3" for="nombre"><h5>Nombre:</h5> </label>
+                              <label class="control-label col-sm-3" for="nombre" style="margin-top: -20px;"><h3>Nombre:</h3> </label>
                               <div class="col-sm-9"> 
                               <input type="text" class="form-control input-sm" name="nombre" required placeholder="Ingrese el nombre real del usuario">
                               </div>  
@@ -51,7 +50,7 @@
                         
                           
                             <div class="form-group">
-                              <label class="control-label col-sm-3" for="email"><h5>Email:</h5></label>
+                              <label class="control-label col-sm-3" for="email" style="margin-top: -20px;"><h3>Email:</h3></label>
                               <div class="col-sm-9"> 
                               <input required type="email" class="form-control input-sm" name="email" placeholder="e-mail">
                               </div>  
@@ -59,35 +58,34 @@
 
 
                             <div class="form-group">
-                              <label class="control-label col-sm-3" for="pwd"><h5>Contraseña:</h5></label>
+                              <label class="control-label col-sm-3" for="pwd" style="margin-top: -20px;"><h3>Contraseña:</h3></label>
                               <div class="col-sm-9"> 
                               <input type="password" class="form-control input-sm" name="password" required placeholder="Ingrese su contraseña">
                               </div>  
                             </div>           
 
-                            <div class="form-group">
+                            <!--<div class="form-group">
                             <label class="control-label col-sm-3" for="fecha"><h5>Fecha de Nacimiento:</h5></label><br>
                             <div class="col-sm-9"> 
                               <g:datePicker id="fecha" name="fecha" class="button" precision="day"/>  
                               </div>  
-                            </div>                
+                            </div>  -->              
 
                             <g:submitButton type="submit" class="button btn-submit" name="submitButton" value="Registrarme!" />     
 
                           </g:form>                    
                                             
                     </div>
-                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
-                    <img src="images/home/cycle.png" class="slider-house" alt="slider image">
-                    <img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">
-                    <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-                    <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+                    <img src="images/home/slider/hill.png" class="slider-hill" style="height: 100% !important;">
+                    
                 </div>
             </div>
         </div>
         
     </section>
-<!-- ESPACIO PARA ALEX 2-->
+
+
+<!--
 <section id="services">
   <div class="container">
     <div class="row">
@@ -180,7 +178,7 @@
                 </div>
 
             </div>
-        </div>
+        </div>-->
 
 
 </body>

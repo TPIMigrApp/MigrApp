@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title><g:layoutTitle default="BikeApp - ¡Muevete por Bogotá!"/></title>
+    <title><g:layoutTitle default="MigrApp - ¡Be Happy!"/></title>
 
 
     <!-- Agregamos CSS. /assets/css/ -->
@@ -123,7 +123,7 @@
 -->
                 <div class="col-sm-12">
                     <div class="copyright-text text-center">
-                        <p><a href="${createLink(controller:'usuario',action:'bikeapp')}">&copy; BikeApp 2016</a></p>
+                        <p><a href="${createLink(controller:'usuario',action:'bikeapp')}">&copy; MigrApp - ¡Be Happy! 2016</a></p>
                     </div>
                 </div>
             </div>
